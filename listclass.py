@@ -25,5 +25,11 @@ class Stack(list):
     
 
 s1 = Stack()
-s1.insert(0,12) 
+s1.push(10)
+s1.push(20)
+s1.push(30)
+print("top value:",s1.peek())
+
+
+
 
